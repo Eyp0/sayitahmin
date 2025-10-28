@@ -1,0 +1,115 @@
+body {
+    background-color: #121212;
+    color: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.baslik{
+    font-size: 24px;
+    font-weight: bold;
+    color: #e6e6e6;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+div.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+div.oyunmetni{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #353232;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.oyunmetni {
+    font-size: 18px;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+div.oyunalani {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5f5f5f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#sonucalani {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #1100c7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buton:hover {
+    background-color: #000000;
+}
+
+#tahmin{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tekrarbaslat {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #d6f747;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#tekrarbaslat:hover {
+    background-color: #000000   ;
+}
+
+.oyunalani {
+    display: flex;            
+    flex-direction: column;    
+    gap: 15px;                
+}
+

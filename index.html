@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="baslik"> <h1>Sayı Tahmin Oyunu</h1></div>
+    <div class="oyunmetni">
+        <p> 1 ile 100 arasında bir sayı tutunuz.</p>
+        <p>Bilgisayarın bu sayıyı tahmin etmesini sağlayınız.</p>
+     </div>
+     <div class="oyunalani">
+        <input type="number" id="tahmin" name="tahmin" placeholder="Tahmininizi buraya giriniz">
+        <input type="button" value="Başla" id="buton" name ="buton" onclick="tahmin()">
+        <input type="button" name="tekrarbaslat" id="tekrarbaslat" value="Tekrar Başlat" onclick="tekrarBaslat()">
+        <p id="sonucalani"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
