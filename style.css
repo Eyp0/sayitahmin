@@ -13,47 +13,53 @@ body {
 }
 
 
-.baslik{
+.baslik {
     font-size: 24px;
     font-weight: bold;
     color: #e6e6e6;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 15px;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #e0c827;
 }
+
 div.container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #1e1e1e;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px #e0c827;
 }
 
-div.oyunmetni{
+div.oyunmetni {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
     background-color: #353232;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px #e0c827;
     text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+
 }
 
 .oyunmetni {
     font-size: 18px;
     color: #e6e6e6;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 div.oyunalani {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #5f5f5f;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #353232;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #e0c827;
 }
 
 #sonucalani {
@@ -68,48 +74,53 @@ div.oyunalani {
 #buton {
     display: block;
     width: 100%;
+    margin: 10px auto;
     padding: 15px;
+    border-radius: 50px;
     background-color: #1100c7;
     color: #ffffff;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    font-size: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #buton:hover {
     background-color: #000000;
+    box-shadow: 0 4px 8px #e0c827;
 }
 
-#tahmin{
+#tahmin {
     width: 100%;
     padding: 10px;
-    font-size: 16px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 #tekrarbaslat {
     display: block;
     width: 100%;
+    margin: 10px auto;
     padding: 15px;
     background-color: #d6f747;
     color: #ffffff;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 50px;
+    font-size: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #tekrarbaslat:hover {
-    background-color: #000000   ;
+    background-color: #000000;
+    box-shadow: 0 4px 8px #e0c827;
 }
 
 .oyunalani {
-    display: flex;            
-    flex-direction: column;    
-    gap: 15px;                
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-
